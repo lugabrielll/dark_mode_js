@@ -1,0 +1,39 @@
+:root{
+    --background: rgb(240, 240, 240);
+    --font: rgb(50, 50, 50);
+    --font-border:rgb(199, 199, 199);
+    --input-border:rgb(113, 113, 113);
+    --input-background:rgb(251, 251, 251);
+}
+:root .dark-theme{
+    --background: rgb(40, 40, 40);
+    --font: rgb(213, 213, 213);
+    --font-border:rgb(60, 60, 60);
+    --input-border:rgb(70, 70, 70);
+    --input-background:rgb(59, 59, 59);
+}
+body{
+    background-color: var(--background);
+    padding: 30px;
+    color: var(--font);
+    transition: 0.5s;
+}
+h1{
+   border-bottom: solid var(--font-border) 2px;
+   padding-bottom: 6px;
+}
+.text{
+    border: solid var(--input-border) 2px;
+    border-radius: 5px;
+    height: 24px;
+    background-color: var(--input-background);
+}
+button{
+    border: solid var(--input-border) 2px;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    color: var(--font);
+    background-color: var(--input-background);
+}
